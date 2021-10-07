@@ -175,7 +175,7 @@ main div {
 main div img {
     display: block;
     max-width: 100%;
-    margin-left: 17rem;
+    margin: 0 auto;
 }
 
 main .tab {
@@ -253,6 +253,93 @@ footer ul {
     padding: 1rem;
 }
 
+
+/* Tablette */
+@media screen and (max-width: 80rem){
+    header nav ul {
+        max-width: 25rem;
+        margin: 0 0 0 48rem;     
+        font-size: 0;
+    }
+
+    main div {
+        margin: 5rem 0 5rem 0rem;
+    }
+
+    footer {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #f2f2f2;
+        margin-top: 7rem;
+    }
+}
+
+/* Tel */
+@media screen and (max-width: 40rem) {
+    header nav ul {
+        max-width: 25rem;
+        margin: 0 0 0 15rem;     
+        font-size: 0;
+    }
+
+    main div img {
+        display: block;
+        width: 15rem;
+        margin: 0 auto;
+    }
+
+    form input:nth-of-type(1) {
+        width: 25rem;
+        margin: 0 auto;
+    }
+
+    main .rech {
+        position: absolute;
+        top: 26rem;
+        left: 2rem;
+        right: 0;
+        width: 10rem;
+        font-weight: 0;
+        line-height: 3rem;
+        font-size: 1rem;
+    }
+
+    main .rock {
+        position: absolute;
+        top: 27rem;
+        left: 17.5rem;
+        right: 0;
+        width: 10rem;
+        font-weight: 0;
+        line-height: 3rem;
+        font-size: 1rem;
+    }
+
+    main div:nth-of-type(2) {
+        margin: 10rem;
+    }
+
+    footer {
+        position: fixed;
+        top: 74.5%;
+        left: 0;
+        right: 0;
+        background-color: #f2f2f2;
+    }
+
+    footer nav ul li {
+        text-align: center;
+        margin-right: 6rem;
+    }
+
+    footer nav ul li:nth-of-type(4) {
+        display: block;
+        text-align: center;
+    }
+    
+}
 
 ```
 #[Tux, the Linux mascot](./asset/TabaiPhoto.JPG)
